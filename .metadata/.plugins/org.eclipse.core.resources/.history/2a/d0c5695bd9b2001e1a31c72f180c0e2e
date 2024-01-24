@@ -1,0 +1,20 @@
+package com.SpringbootOneToOne.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.SpringbootOneToOne.model.Book;
+import com.SpringbootOneToOne.service.BookService;
+
+@RestController
+public class BookController {
+	
+	BookService bookService;
+	
+	public List<Book> getAllBook(){
+		List<Book> allBook = bookService.getAllBook();
+		return allBook;
+	}
+
+}

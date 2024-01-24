@@ -1,0 +1,5 @@
+package com.SpringbootOneToOne.dao;
+
+public interface BookRepo {
+
+}

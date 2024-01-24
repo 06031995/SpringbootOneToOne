@@ -1,0 +1,16 @@
+package com.SpringbootOneToOne.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class FileUploadController {
+	
+	@PostMapping("file")
+	public ResponseEntity<String> fileUpload(){
+		return ResponseEntity.ok("working");
+	}
+
+}

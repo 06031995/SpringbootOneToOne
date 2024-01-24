@@ -1,0 +1,5 @@
+package com.SpringbootOneToOne.model;
+
+public class Author {
+
+}

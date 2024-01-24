@@ -1,0 +1,16 @@
+package com.SpringbootOneToOne.dao;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.SpringbootOneToOne.model.Book;
+import java.util.List;
+
+@Repository
+public interface BookRepo extends CrudRepository<Book, Integer>{
+	
+	//public Book findByBook_id(int book_id);
+	
+	
+
+}
